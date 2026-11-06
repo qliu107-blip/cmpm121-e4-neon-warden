@@ -31,8 +31,9 @@ body {
   border: 1px solid rgba(94, 242, 255, 0.35);
   border-radius: 10px;
   background: rgba(14, 10, 34, 0.86);
-  box-shadow: 0 0 24px rgba(94, 242, 255, 0.15), inset 0 0 18px rgba(94, 242,
-    255, 0.08);
+  box-shadow:
+    0 0 24px rgba(94, 242, 255, 0.15),
+    inset 0 0 18px rgba(94, 242, 255, 0.08);
   transition: opacity 400ms, transform 400ms;
 }
 
@@ -44,8 +45,7 @@ body {
 
 .panel-right {
   transform-origin: left center;
-  transform: translateX(-18px) rotateY(calc(-1 *
-    24deg));
+  transform: translateX(-18px) rotateY(calc(-1 * 24deg));
 }
 
 .cabinet[data-mode="title"] .panel,
@@ -128,8 +128,9 @@ output {
   height: 640px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 0 2px rgba(94, 242, 255, 0.35), 0 0 40px rgba(94, 242, 255,
-    0.2);
+  box-shadow:
+    0 0 0 2px rgba(94, 242, 255, 0.35),
+    0 0 40px rgba(94, 242, 255, 0.2);
 }
 
 #game,
@@ -209,8 +210,12 @@ output {
   gap: 6px;
   padding: 14px;
   text-align: center;
-  background: linear-gradient(90deg, transparent, rgba(14, 10, 34, 0.9) 20% 80%,
-    transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(14, 10, 34, 0.9) 20% 80%,
+    transparent
+  );
   pointer-events: none;
   opacity: 0;
   transform: perspective(600px) rotateX(90deg);
