@@ -375,3 +375,19 @@ output {
     order: -1;
   }
 }
+
+.pip {
+  width: 22px;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  background: currentColor;
+}
+.cell {
+  flex: 1;
+  border-radius: 2px;
+}
+.stop-dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
