@@ -110,8 +110,17 @@ export class TitleScene extends Phaser.Scene {
   }
 }
 
+export interface RunTotals {
+  score: number;
+  lives: number;
+  kills: number;
+  hits: number;
+  continues: number;
+  bossDefeated: boolean;
+}
+
 interface CutsceneData {
-  run: { score: number; kills: number; hits: number; continues: number };
+  run: Readonly<RunTotals>;
   demo: boolean;
 }
 
