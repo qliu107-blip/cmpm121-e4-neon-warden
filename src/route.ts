@@ -92,10 +92,3 @@ export const WARDEN = {
   warning: "WARNING",
   subtitle: "The Warden approaches",
 };
-
-export const ENEMIES = {
-  drone: { hp: 2, score: 100, radius: 13, dropChance: 0.015, shoots: true },
-  dart: { hp: 1, score: 150, radius: 12, dropChance: 0.015, shoots: false },
-  turret: { hp: 12, score: 400, radius: 19, dropChance: 0.3, shoots: true },
-  lancer: { hp: 4, score: 250, radius: 15, dropChance: 0.06, shoots: true },
-};
